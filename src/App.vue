@@ -54,8 +54,8 @@ export default {
   },
 
   data: () => ({
-    // public_key: '2ad8e78092c589c79a81cbde1b7ebadd',
-    // private_key: '46573af49418473459ec753f6a69484d2ea08cf2',
+    public_key: '2ad8e78092c589c79a81cbde1b7ebadd',
+    private_key: `${ENV.process.private_key}`,
   }),
 };
 </script>
